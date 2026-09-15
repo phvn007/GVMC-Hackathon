@@ -1,20 +1,15 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# GVMC File Management & SLA Tracking System 🏛️
 
-# Run and deploy your AI Studio app
+A full-stack municipal governance prototype built during a 30-hour hackathon. This system is designed to modernize the Greater Visakhapatnam Municipal Corporation (GVMC) by bringing transparency, accountability, and real-time tracking to departmental file approvals.
 
-This contains everything you need to run your app locally.
+### 🚀 Key Features
+*   **Role-Based Access Control (RBAC):** Secure, isolated dashboards for Citizens, Departmental Officers, and the Municipal Commissioner.
+*   **Aadhaar-Linked OTP Authentication:** Secure login flow integrated with the 2Factor.in SMS API for real-time mobile verification.
+*   **Executive SLA Dashboards:** Live data visualization using Recharts to track departmental efficiency, SLA breaches, and approval bottlenecks.
+*   **Physical-to-Digital Bridge:** Integrated QR code and 1D spine barcode generation/scanning to log automated custody transfers of physical file folders.
+*   **Immutable Audit Trails:** Time-stamped movement history and digital note sheets for complete accountability.
 
-View your app in AI Studio: https://ai.studio/apps/db64fc50-63dc-4c02-944e-266238f27941
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### 💻 Tech Stack
+*   **Frontend:** React 19, TypeScript, Tailwind CSS, Vite, Framer Motion
+*   **Backend:** Node.js, Express.js (Unified Server Architecture)
+*   **Tools:** Recharts (Analytics), `qrcode.react` & `react-barcode` (Optical Tracking), Axios
