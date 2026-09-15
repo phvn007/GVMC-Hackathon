@@ -1,0 +1,6 @@
+{
+  "name": "GVMC File Tracker",
+  "description": "Greater Visakhapatnam Municipal Corporation Departmental File Management and Tracking System",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
